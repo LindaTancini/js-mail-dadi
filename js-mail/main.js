@@ -7,7 +7,8 @@ const email = [
 ];
 console.log(email);
 // chiedo all'utente la sua email
-
+let mailAddress = prompt("Inserisci l'indirizzo email");
+console.log("La tua email è: " + mailAddress);
 // la tua email è presente nella lista?
 
 // Si, è presente. No, non è presente (stampo)
