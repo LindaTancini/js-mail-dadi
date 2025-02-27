@@ -2,7 +2,7 @@
 let userScore = Math.floor(Math.random() * 6) + 1;
 console.log(userScore);
 // genero un numero random da 1 a 6 per il pc
+let computerScore = Math.floor(Math.random() * 6) + 1;
+console.log(computerScore);
 
-//stampo i risultati dei tiri dei dadi
-
-// il vincitore è il numero di tiro del dado più alto
+// stabilisco chi è il vincitore del tiro con i dadi in base al numero più alto
