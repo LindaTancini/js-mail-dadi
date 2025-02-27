@@ -1,2 +1,7 @@
-// Crea una lista di email di invitati ad una festa.
-//Chiedi all’utente la sua email, controlla che sia nella lista di chi può accedere, stampa un messaggio appropriato sull’esito del controllo, utilizzando un ciclo for.
+// creo una lista di email (array)
+
+// chiedo all'utente la sua email
+
+// la tua email è presente nella lista?
+
+// Si, è presente. No, non è presente (stampo)
