@@ -18,5 +18,9 @@ for (let i = 0; i < email.length; i++) {
     break; // interrompo il ciclo
   }
 }
-
 // Si, è presente. No, non è presente (stampo)
+if (access) {
+  alert("Sei dentro alla festa!");
+} else {
+  alert("Non sei nella lista invitati.");
+}
