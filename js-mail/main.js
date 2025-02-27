@@ -9,6 +9,14 @@ console.log(email);
 // chiedo all'utente la sua email
 let mailAddress = prompt("Inserisci l'indirizzo email");
 console.log("La tua email è: " + mailAddress);
-// la tua email è presente nella lista?
+//creo una variabile con valore booleano iniziale "false"
+let access = false;
+// la tua email è presente nella lista? creo un ciclo for
+for (let i = 0; i < email.length; i++) {
+  if (email[i] === mailAddress) {
+    access = true;
+    break; // interrompo il ciclo
+  }
+}
 
 // Si, è presente. No, non è presente (stampo)
