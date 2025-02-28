@@ -1,19 +1,19 @@
 // creo una lista di email (array)
-const email = [
+const emails = [
   "linda@gmail.com",
   "luigi@gmail.com",
   "leone@gmail.com",
   "fumetto@gmail.com",
 ];
-console.log(email);
+console.log(emails);
 // chiedo all'utente la sua email
 let mailAddress = prompt("Inserisci l'indirizzo email");
 console.log("La tua email è: " + mailAddress);
 //creo una variabile con valore booleano iniziale "false"
 let access = false;
 // la tua email è presente nella lista? creo un ciclo for
-for (let i = 0; i < email.length; i++) {
-  if (email[i] === mailAddress) {
+for (let i = 0; i < emails.length; i++) {
+  if (emails[i] === mailAddress) {
     access = true;
     break; // interrompo il ciclo
   }
